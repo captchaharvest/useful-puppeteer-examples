@@ -6,4 +6,3 @@ function currentTimestamp() {
     var currentMillisecond = currentTime.getMilliseconds();
     console.log(currentHour + ':' + currentMinute + ':' + currentSecond + ':' + currentMillisecond);
   };
-  
