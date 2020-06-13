@@ -13,4 +13,4 @@ const useProxy = require('puppeteer-page-proxy');
     const page = await browser.newPage();
     await useProxy(page, proxy);
     await page.goto(site);
-    })();
+})();
